@@ -38,4 +38,4 @@ while True:
 
     df = pd.DataFrame(d)
     print(df)
-    df.to_csv("./datasets/data.csv", index=False)
+    df.to_csv("data.csv", index=False)
